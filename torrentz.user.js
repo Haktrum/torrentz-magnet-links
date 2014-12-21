@@ -2,11 +2,12 @@
 // @name        Torrentz
 // @namespace   Haktrum
 // @author      Haktrum
+// @match       *://*.torrentz.com/*
 // @match       *://*.torrentz.eu/*
 // @match       *://*.torrentz.me/*
 // @match       *://*.torrentz.ch/*
 // @match       *://*.torrentz.in/*
-// @version     1.05
+// @version     1.06
 // ==/UserScript==
 
 (function() {
