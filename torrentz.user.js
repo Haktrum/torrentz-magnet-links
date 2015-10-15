@@ -37,7 +37,6 @@
     };
     var getMagnet = function(document, magnet, title)
     {
-        console.log(document, magnet, title);
         var trackers;
         if (!title)
             title = document.querySelector('.download h2 span').textContent;
@@ -64,10 +63,8 @@
     styleSheet.insertRule('.magnet-icon { background-image: url("' + magnetIcon + '"); background-size: contain; background-repeat: no-repeat; display: inline-block; padding-right: 2px; margin-bottom: -3px; }', 0);
     styleSheet.insertRule('.magnet-icon.s16 { width: 16px; height: 16px; }', 0);
     styleSheet.insertRule('.magnet-icon.s22 { width: 22px; height: 22px; }', 0);
-    console.log(1);
     if (!title)
     {
-        console.log(2);
         var magnetImg = document.createElement('img');
         magnetImg.className = 'magnet-icon s16';
         var magnetA;
@@ -82,7 +79,6 @@
     }
     else
     {
-        console.log(3);
         title = document.querySelector('.download h2 span');
         var magnetImg = document.createElement('img');
         var magnetA = document.createElement('a');
